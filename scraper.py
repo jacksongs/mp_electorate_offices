@@ -52,7 +52,7 @@ for b in basedata:
 
 # In[54]:
 
-scraperwiki.sqlite.save(unique_keys='',data=offices,table_name='offices')
+scraperwiki.sqlite.save(unique_keys=[],data=offices,table_name='offices')
 
 
 # In[ ]:
